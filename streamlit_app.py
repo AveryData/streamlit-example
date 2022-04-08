@@ -9,7 +9,7 @@ import datetime
 import datetime
 st.write("# Cookie Manager")
 
-@st.cache(allow_output_mutation=True)
+
 def get_manager():
     return stx.CookieManager()
 
