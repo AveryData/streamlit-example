@@ -3,6 +3,8 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import extra_streamlit_components as stx
+import datetime
 
 import datetime
 st.write("# Cookie Manager")
